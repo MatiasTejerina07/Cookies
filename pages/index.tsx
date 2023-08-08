@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <h1>
-      Soy un CAPO
+      Soy
     </h1>
   )
 }

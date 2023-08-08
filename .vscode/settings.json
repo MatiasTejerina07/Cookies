@@ -1,0 +1,5 @@
+{
+    "editor.stickyTabStops": true,
+    "workbench.editor.wrapTabs": true,
+    "editor.formatOnSave": true
+}
