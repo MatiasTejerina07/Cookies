@@ -1,13 +1,10 @@
 import Head from "next/head"
-import { FC, ReactNode } from "react"
+import { FC, FunctionComponent, ReactNode } from "react"
 import { Navbar } from "../ui"
 
-interface MyComponentProps {
-    children: ReactNode;
-}
 
 
-export const Layout: FC<MyComponentProps> = ({ children }) => {
+export const Layout: FunctionComponent = ({ children }: any) => {
     return (
         <>
             <Head>

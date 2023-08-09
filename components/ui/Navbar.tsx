@@ -1,4 +1,5 @@
-import { AppBar, IconButton, Toolbar, Link as Anchor, Typography } from "@mui/material"
+import { AppBar, IconButton, Toolbar, Typography } from "@mui/material"
+/* import { Link as Anchor } from '@mui/material' */
 import { MenuOutlined } from "@mui/icons-material"
 import Link from "next/link"
 
@@ -11,17 +12,22 @@ export const Navbar = () => {
                     edge="start">
                     <MenuOutlined />
                 </IconButton>
-                <Link href={'/'} passHref>
-                    <Anchor>
-                        <Typography variant="h6" color={"white"}>CookieMaster</Typography>
-                    </Anchor>
+                <Link href={'#'} passHref>
+
+                    {/* <Anchor> */}
+                    <Typography variant="h6" color={"white"}>CookieMaster</Typography>
+                    {/* </Anchor> */}
+
                 </Link>
 
+                <div style={{ flex: 1 }} />
 
                 <Link href={'/theme-changer'} passHref>
-                    <Anchor>
-                        <Typography variant="h6" color={"white"}>Cambiar THEME</Typography>
-                    </Anchor>
+
+                    {/* <Anchor> */}
+                    <Typography variant="h6" color={"white"}>Cambiar THEME</Typography>
+                    {/* </Anchor> */}
+
                 </Link>
             </Toolbar>
         </AppBar >
