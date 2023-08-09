@@ -1,7 +1,12 @@
-export default function Home() {
+import { Layout } from "@/components/layouts";
+import { NextPage } from "next";
+
+const Home: NextPage = () => {
   return (
-    <h1>
-      Soy
-    </h1>
+    <Layout>
+
+      <h1>CookieMaster
+      </h1>
+    </Layout>
   )
 }
